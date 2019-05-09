@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>信息管理与信息系统专业课表</title>
+  </head>
+  <body background="background.png">
+    <table width="100%" align="center" style="border: 1px solid #aaa">
+      <caption>
+        <h2>信息管理与信息系统专业课表</h2>
+      </caption>
+      <tr height="35px">
+        <th width="60px" bgcolor="#84C1FF" style="color: black">节次</th>
+        <th width="100px" bgcolor="#84C1FF" style="color: black">上课时间</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周一</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周二</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周三</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周四</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周五</th>
+      </tr>
+      <tr height="37px" align="center">
+        <td align="center">1</td>
+        <td rowspan="1">8:20-9:05</td>
+        <td rowspan="2" bgcolor="white"> web应用开发技术_01<br />(西区第一公共教学楼C411) </td>
+        <td rowspan="2" bgcolor="white"> 英文写作1_02<br />(西区第一公共教学楼C317) </td>
+        <td rowspan="2" bgcolor="white"> 管理信息系统_02<br />(西区第一公共教学楼C105) </td>
+        <td rowspan="2" bgcolor="white"> 数据库原理及应用_01<br />(西区第一公共教学楼B405) </td>
+        <td rowspan="2" bgcolor="white"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>2</td>
+        <td rowspan="1">9:15-10:00</td>
+        
+      </tr>
+      <tr height="37px" align="center">
+        <td>3</td>
+        <td rowspan="1">10:20-11:05</td>
+        <td rowspan="2" bgcolor="white">毛概_13<br />(西区第一公共教学楼A120)  </td>
+        <td rowspan="2" bgcolor="white">管理科学基础_01<br />(西区第一公共教学楼C411) </td>
+        <td rowspan="2" bgcolor="white">毛概_13<br />(西区第一公共教学楼A120)</td>
+        <td rowspan="2" bgcolor="white">管理科学基础_01<br />(西区第一公共教学楼C411)</td>
+        <td rowspan="2" bgcolor="white">运营管理_02<br />(西区第一公共教学楼B405)</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>4</td>
+        <td rowspan="1">11:15-12:00</td>
+
+      </tr>
+      <tr height="37px" align="center">
+        <td>午休</td>
+        <td rowspan="1"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>5</td>
+        <td rowspan="1">14:00-14:45</td>
+        <td rowspan="2" bgcolor="white">管理信息系统_02<br />(西区第一公共教学楼C105)</td>
+        <td rowspan="2" bgcolor="white"> 形势与政策2_41<br />(西区第一公共教学楼C123)</td>
+        <td rowspan="2" bgcolor="white">会计学_01<br />(西区第一公共教学楼B101)</td>
+        <td rowspan="2" bgcolor="white"></td>
+        <td rowspan="2" bgcolor="white">毛概_13<br />(西区第一公共教学楼A120)</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>6</td>
+        <td rowspan="1">14:55-15:40</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>7</td>
+        <td rowspan="1">16:00-16:45</td>
+        <td rowspan="2" bgcolor="white">电子商务_01<br />(西区第一公共教学楼B303)</td>
+        <td rowspan="2" bgcolor="white"> 数据库原理及应用_01<br />(西区第一公共教学楼C109)</td>
+        <td rowspan="2" bgcolor="white"></td>
+        <td rowspan="2" bgcolor="white">会计学_01<br />(西区第一公共教学楼B101)</td>
+        <td rowspan="2" bgcolor="white"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>8</td>
+        <td rowspan="1">16:55-17:40</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>晚饭</td>
+        <td rowspan="1"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>9</td>
+        <td rowspan="1">18:30-19:15</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>10</td>
+        <td rowspan="1">19:25-20:00</td>
+    </table>
+  </body>
+</html>

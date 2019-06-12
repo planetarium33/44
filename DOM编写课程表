@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>信息管理与信息系统专业课表</title>
+  </head>
+  <body background="background.png">
+    <table width="100%" align="center" style="border: 1px solid #aaa">
+      <caption>
+        <h2>信息管理与信息系统专业课表</h2>
+      </caption>
+      <tr height="35px">
+        <th width="60px" bgcolor="#84C1FF" style="color: black">节次</th>
+        <th width="100px" bgcolor="#84C1FF" style="color: black">上课时间</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周一</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周二</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周三</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周四</th>
+        <th width="150px" bgcolor="#84C1FF" style="color: black">周五</th>
+      </tr>
+      <tr height="37px" align="center">
+        <td align="center" >1</td>
+        <td rowspan="1">8:20-9:05</td>
+        <td rowspan="2" bgcolor="white" onmouseover="webOver(this)" onmouseout="webOut(this)"> web应用开发技术_01<br /> </td>
+        <script>
+            function webOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼C411 <br /> 吕成功 "
+            }
+            
+            function webOut(obj) {
+              obj.innerHTML = "web应用开发技术_01"
+            }
+            </script>
+            
+        <td rowspan="2" bgcolor="white"onmouseover="EnglishOver(this)" onmouseout="EnglishOut(this)"> 英文写作1_02<br /> </td>
+        <script>
+            function EnglishOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼C317 <br /> 严黎"
+            }
+            
+            function EnglishOut(obj) {
+              obj.innerHTML = "英文写作1_02"
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"onmouseover="ISOver(this)" onmouseout="ISOut(this)"> 管理信息系统_02<br /> </td>
+        <script>
+            function ISOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼C105 <br /> 刘烨"
+            }
+            
+            function ISOut(obj) {
+              obj.innerHTML = "管理信息系统_02"
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"onmouseover="MySQLOver(this)" onmouseout="MySQLOut(this)"> 数据库原理及应用_01<br /></td>
+        <script>
+            function MySQLOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼B405 <br /> 吴君"
+            }
+            
+            function MySQLOut(obj) {
+              obj.innerHTML = "数据库原理及应用_01"
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>2</td>
+        <td rowspan="1">9:15-10:00</td>
+        
+      </tr>
+      <tr height="37px" align="center">
+        <td>3</td>
+        <td rowspan="1">10:20-11:05</td>
+        <td rowspan="2" bgcolor="white"onmouseover="MGOver(this)" onmouseout="MGOut(this)">毛概_13<br /></td>
+        <script>
+            function MGOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼A120 <br /> 顾洪英"
+            }
+            
+            function MGOut(obj) {
+              obj.innerHTML = "毛概_13"
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"onmouseover="GKOver(this)" onmouseout="GKOut(this)">管理科学基础_01<br /> </td>
+        <script>
+            function GKOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼C411 <br /> 赵方方"
+            }
+            
+            function GKOut(obj) {
+              obj.innerHTML = "管理科学基础_01"
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"onmouseover="MGOver(this)" onmouseout="MGOut(this)">毛概_13<br /></td>
+        <td rowspan="2" bgcolor="white"onmouseover="GKOver(this)" onmouseout="GKOut(this)">管理科学基础_01<br /></td>
+        <td rowspan="2" bgcolor="white"onmouseover="YYGLOver(this)" onmouseout="YYGLOut(this)">运营管理_02<br /></td>
+        <script>
+            function YYGLOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼B405 <br /> 刘亮 邓华"
+            }
+            
+            function YYGLOut(obj) {
+              obj.innerHTML = "运营管理_02"
+            }
+            </script>
+      </tr>
+      <tr height="37px" align="center">
+        <td>4</td>
+        <td rowspan="1">11:15-12:00</td>
+
+      </tr>
+      <tr height="37px" align="center">
+        <td>午休</td>
+        <td rowspan="1"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>5</td>
+        <td rowspan="1">14:00-14:45</td>
+        <td rowspan="2" bgcolor="white"onmouseover="ISOver(this)" onmouseout="ISOut(this)">管理信息系统_02<br /></td>
+        <td rowspan="2" bgcolor="white"onmouseover="XSOver(this)" onmouseout="XSOut(this)"> 形势与政策2_41<br />  </td>
+        <script>
+            function XSOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼C123 <br /> 邵夏 李坤"
+            }
+            
+            function XSOut(obj) {
+              obj.innerHTML = "形势与政策2_41 "
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"onmouseover="KJOver(this)" onmouseout="KJOut(this)">会计学_01<br /></td>
+        <script>
+            function KJOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼B101 <br /> 刘晓晖"
+            }
+            
+            function KJOut(obj) {
+              obj.innerHTML = "会计学_01"
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"></td>
+        <td rowspan="2" bgcolor="white"onmouseover="MGOver(this)" onmouseout="MGOut(this)">毛概_13<br /></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>6</td>
+        <td rowspan="1">14:55-15:40</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>7</td>
+        <td rowspan="1">16:00-16:45</td>
+        <td rowspan="2" bgcolor="white"onmouseover="DSOver(this)" onmouseout="DSOut(this)">电子商务_01<br /></td>
+        <script>
+            function DSOver(obj) {
+              obj.innerHTML = "西区第一公共教学楼B303 <br /> 张亮"
+            }
+            
+            function DSOut(obj) {
+              obj.innerHTML = "电子商务_01"
+            }
+            </script>
+        <td rowspan="2" bgcolor="white"onmouseover="MySQLOver(this)" onmouseout="MySQLOut(this)"> 数据库原理及应用_01<br /></td>
+        <td rowspan="2" bgcolor="white"></td>
+        <td rowspan="2" bgcolor="white"onmouseover="KJOver(this)" onmouseout="KJOut(this)">会计学_01<br /></td>
+        <td rowspan="2" bgcolor="white"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>8</td>
+        <td rowspan="1">16:55-17:40</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>晚饭</td>
+        <td rowspan="1"></td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>9</td>
+        <td rowspan="1">18:30-19:15</td>
+      </tr>
+      <tr height="37px" align="center">
+        <td>10</td>
+        <td rowspan="1">19:25-20:00</td>
+    </table>
+  </body>
+</html>
